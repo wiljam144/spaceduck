@@ -1,7 +1,8 @@
 local spaceduck = {}
 
 local colors = {
-  black = '#0f111b',
+  black = "#1c1c34",
+  --black = '#0f111b',
   white = '#ecf0c1',
   red = '#e33400',
   green = '#5ccc96',
@@ -39,7 +40,7 @@ spaceduck.replace = {
 }
 
 spaceduck.command = {
-  a = {bg = colors.blue, fg = colors.black, gui = 'bold'},
+  a = {bg = colors.gray, fg = colors.black, gui = 'bold'},
   b = {bg = colors.darkgray, fg = colors.lightgray},
   c = {bg = colors.black, fg = colors.lightgray}
 }
