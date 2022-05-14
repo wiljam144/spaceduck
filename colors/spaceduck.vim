@@ -245,6 +245,23 @@ hi BufferCurrentTarget guifg=#ce6f8f ctermfg=168 guibg=#0f111b ctermbg=233 gui=N
 hi BufferVisibleTarget guifg=#ce6f8f ctermfg=168 guibg=#0f111b ctermbg=233 gui=NONE cterm=NONE
 hi BufferInactiveTarget guifg=#ce6f8f ctermfg=168 guibg=#0f111b ctermbg=233 gui=NONE cterm=NONE
 
+" support for nvim-cmp
+hi CmpItemAbbrDeprecated guibg=NONE gui=strikethrough guifg=#808080
+
+hi CmpItemAbbrMatch guibg=NONE guifg=#5ccc96
+hi CmpItemAbbrMatchFuzzy guibg=NONE guifg=#5ccc96
+
+hi CmpItemKindVariable guibg=NONE guifg=#00a3cc
+hi CmpItemKindInterface guibg=NONE guifg=#00a3cc
+
+hi CmpItemKindFunction guibg=NONE guifg=#ce6f8f
+hi CmpItemKindMethod guibg=NONE guifg=#ce6f8f
+
+hi CmpItemKindKeyword guibg=NONE guifg=#ecf0c1
+hi CmpItemKindProperty guibg=NONE guifg=#ecf0c1
+hi CmpItemKinUnit guibg=NONE guifg=#ecf0c1
+hi CmpItemKindText guibg=NONE guifg=#ecf0c1
+
 let g:terminal_color_foreground = "#ecf0c1"
 let g:terminal_color_background = "#0f111b"
 let g:terminal_color_0 = "#000000"
