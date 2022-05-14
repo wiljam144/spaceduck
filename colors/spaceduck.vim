@@ -248,8 +248,8 @@ hi BufferInactiveTarget guifg=#ce6f8f ctermfg=168 guibg=#0f111b ctermbg=233 gui=
 " support for nvim-cmp
 hi CmpItemAbbrDeprecated guibg=NONE gui=strikethrough guifg=#808080
 
-hi CmpItemAbbrMatch guibg=NONE guifg=#5ccc96
-hi CmpItemAbbrMatchFuzzy guibg=NONE guifg=#5ccc96
+"hi CmpItemAbbrMatch guibg=NONE guifg=#5ccc96
+"hi CmpItemAbbrMatchFuzzy guibg=NONE guifg=#5ccc96
 
 hi CmpItemKindVariable guibg=NONE guifg=#00a3cc
 hi CmpItemKindInterface guibg=NONE guifg=#00a3cc
